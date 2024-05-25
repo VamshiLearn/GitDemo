@@ -27,6 +27,11 @@ public class ExtentReportDemo {
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Tester", "Vamshi");
 		
+		
+		System.out.println("postJira");
+		System.out.println("postJira1");
+		System.out.println("postJira2");
+		
 	}
 	
 	
