@@ -75,7 +75,7 @@ public class ExtentReportDemo {
 	
 	//copied for checking develop branch GitX
 		@Test
-		public void initialDemo2()
+		public void initialDemo3()
 		{
 			ExtentTest test=extent.createTest("Initial Demo");  //testcaseName
 			System.setProperty("webdriver.chrome.driver", "C:/Users/VAMSHI/Documents/chromedriver.exe");
