@@ -57,4 +57,23 @@ public class ExtentReportDemo {
 		
 	}
 	
+	
+//copied for checking develop branch
+	@Test
+	public void initialDemo2()
+	{
+		ExtentTest test=extent.createTest("Initial Demo");  //testcaseName
+		System.setProperty("webdriver.chrome.driver", "C:/Users/VAMSHI/Documents/chromedriver.exe");
+		WebDriver driver = new ChromeDriver(); // Launching the browser
+		driver.get("https://rahulshettyacademy.com");
+		System.out.println(driver.getTitle());
+		test.fail("Results do not match");
+		driver.close();
+		extent.flush();  //Report will generate with this method else it will still wait for listeners
+		
+		
+	}
+	
+	
+	
 }
