@@ -32,6 +32,13 @@ public class ExtentReportDemo {
 		System.out.println("postJira1");
 		System.out.println("postJira2");
 		
+		//Make the changes by GitX
+		
+		System.out.println("postJira4");
+		System.out.println("postJira5");
+		System.out.println("postJira6");
+		
+		
 	}
 	
 	
